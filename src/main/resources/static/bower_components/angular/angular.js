@@ -14391,7 +14391,7 @@ function $RootScopeProvider() {
        * unrolling of the loop.
        *
        * Just before a scope is destroyed, a `$destroy` event is broadcasted on this scope.
-       * Application code can register a `$destroy` event handler that will give it a chance to
+       * fi.zcode.jenkins.Application code can register a `$destroy` event handler that will give it a chance to
        * perform any necessary cleanup.
        *
        * Note that, in AngularJS, there is also a `$destroy` jQuery event, which can be used to
